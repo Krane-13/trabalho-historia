@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -119,4 +120,127 @@
 
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz do Pantera Negra</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <header>
+            <a href="https://ifrs.edu.br/rolante/" target="_blank">
+                <img src="assets/img/logo_IF.png" alt="Logo IF" class="logo-left">
+            </a>
+            <button onclick="location.href='index.html'">Voltar</button>
+            <img src="assets/img/logo-TEC-INFO.png" alt="Logo Tec Info" class="logo-right">
+        </header>
+        <div class="container">
+            <h1>Quiz do Pantera Negra</h1>
+            <form id="quizForm">
+                <!-- Pergunta 1 -->
+                <div class="question">
+                    <h3>1. Qual é o verdadeiro nome do Pantera Negra?</h3>
+                    <label><input type="radio" name="q1" value="T'Chaka"> T'Chaka</label>
+                    <label><input type="radio" name="q1" value="N'Jadaka"> N'Jadaka</label>
+                    <label><input type="radio" name="q1" value="T'Challa"> T'Challa</label>
+                </div>
+
+                <!-- Pergunta 2 -->
+                <div class="question">
+                    <h3>2. Qual é o país fictício que o Pantera Negra governa?</h3>
+                    <label><input type="radio" name="q2" value="Genosha"> Genosha</label>
+                    <label><input type="radio" name="q2" value="Latveria"> Latveria</label>
+                    <label><input type="radio" name="q2" value="Wakanda"> Wakanda</label>
+                </div>
+
+                <!-- Pergunta 3 -->
+                <div class="question">
+                    <h3>3. Qual é o nome da guarda real feminina que protege o Pantera Negra?</h3>
+                    <label><input type="radio" name="q3" value="Dora Milaje"> Dora Milaje</label>
+                    <label><input type="radio" name="q3" value="Amazonas"> Amazonas</label>
+                    <label><input type="radio" name="q3" value="Mulheres Pantera"> Mulheres Pantera</label>
+                </div>
+
+                <!-- Pergunta 4 -->
+                <div class="question">
+                    <h3>4. Qual é o metal raro que é encontrado em Wakanda?</h3>
+                    <label><input type="radio" name="q4" value="Adamantium"> Adamantium</label>
+                    <label><input type="radio" name="q4" value="Vibranium"> Vibranium</label>
+                    <label><input type="radio" name="q4" value="Unobtainium"> Unobtainium</label>
+                </div>
+
+                <!-- Pergunta 5 -->
+                <div class="question">
+                    <h3>5. Quem criou o personagem Pantera Negra nos quadrinhos?</h3>
+                    <label><input type="radio" name="q5" value="Stan Lee e Jack Kirby"> Stan Lee e Jack Kirby</label>
+                    <label><input type="radio" name="q5" value="Frank Miller e John Byrne"> Frank Miller e John
+                        Byrne</label>
+                    <label><input type="radio" name="q5" value="Alan Moore e Dave Gibbons"> Alan Moore e Dave
+                        Gibbons</label>
+                </div>
+
+                <!-- Pergunta 6 -->
+                <div class="question">
+                    <h3>6. Qual destes personagens é um inimigo conhecido do Pantera Negra?</h3>
+                    <label><input type="radio" name="q6" value="Doutor Destino"> Doutor Destino</label>
+                    <label><input type="radio" name="q6" value="Thanos"> Thanos</label>
+                    <label><input type="radio" name="q6" value="Erik Killmonger"> Erik Killmonger</label>
+                </div>
+
+                <!-- Pergunta 7 -->
+                <div class="question">
+                    <h3>7. O Pantera Negra fez sua primeira aparição nos quadrinhos em qual revista?</h3>
+                    <label><input type="radio" name="q7" value="The Amazing Spider-Man"> The Amazing Spider-Man</label>
+                    <label><input type="radio" name="q7" value="Fantastic Four"> Fantastic Four</label>
+                    <label><input type="radio" name="q7" value="Avengers"> Avengers</label>
+                </div>
+
+                <!-- Pergunta 8 -->
+                <div class="question">
+                    <h3>8. Qual das habilidades o Pantera Negra possui graças à erva em formato de coração?</h3>
+                    <label><input type="radio" name="q8" value="Superforça e sentidos aprimorados"> Superforça e
+                        sentidos aprimorados</label>
+                    <label><input type="radio" name="q8" value="Invisibility"> Invisibility</label>
+                    <label><input type="radio" name="q8" value="Teletransporte"> Teletransporte</label>
+                </div>
+
+                <!-- Pergunta 9 -->
+                <div class="question">
+                    <h3>9. Quem é a irmã de T'Challa, conhecida por sua inteligência e habilidade em tecnologia?</h3>
+                    <label><input type="radio" name="q9" value="Nakia"> Nakia</label>
+                    <label><input type="radio" name="q9" value="Okoye"> Okoye</label>
+                    <label><input type="radio" name="q9" value="Shuri"> Shuri</label>
+                </div>
+
+                <!-- Pergunta 10 -->
+                <div class="question">
+                    <h3>10. Em qual filme o Pantera Negra fez sua estreia no Universo Cinematográfico da Marvel (MCU)?
+                    </h3>
+                    <label><input type="radio" name="q10" value="antera Negra"> Pantera Negra</label>
+                    <label><input type="radio" name="q10" value="Capitão América: Guerra Civil"> Capitão América: Guerra
+                        Civil</label>
+                    <label><input type="radio" name="q10" value="Vingadores: Guerra Infinita"> Vingadores: Guerra
+                        Infinita</label>
+                </div>
+
+                <button type="button" onclick="checkAnswers()">Verificar Respostas</button>
+            </form>
+            <div id="results"></div>
+        </div>
+    </div>
+
+    <script src="script-pantera.js"></script>
+    <footer>
+        <p>&copy; Info IV 2024 - Matheus, Murilo e Victor. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+>>>>>>> fbd73d258a6192384fb495ed17e4d67cc7cb8125
 </html>
