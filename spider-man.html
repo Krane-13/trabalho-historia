@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz do Homem-Aranha: Miles Morales</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="content-wrapper"><header>
+        <a href="https://ifrs.edu.br/rolante/" target="_blank">
+            <img src="assets/img/logo_IF.png" alt="Logo IF" class="logo-left">
+        </a>
+        <button onclick="location.href='index.html'">Voltar</button>
+        <img src="assets/img/logo-TEC-INFO.png" alt="Logo Tec Info" class="logo-right">
+    </header>
+    <div class="container">
+        <h1>Quiz do Homem-Aranha: Miles Morales</h1>
+        <form id="quizForm">
+            <!-- Pergunta 1 -->
+            <div class="question">
+                <h3>1. Qual é o nome verdadeiro do Homem-Aranha (Miles Morales)?</h3>
+                <label><input type="radio" name="q1" value="Peter Parker"> Peter Parker</label>
+                <label><input type="radio" name="q1" value="Miles Morales"> Miles Morales</label>
+                <label><input type="radio" name="q1" value="Gwen Stacy"> Gwen Stacy</label>
+            </div>
+
+            <!-- Pergunta 2 -->
+            <div class="question">
+                <h3>2. Em qual cidade Miles Morales vive?</h3>
+                <label><input type="radio" name="q2" value="Nova York"> Nova York</label>
+                <label><input type="radio" name="q2" value="Los Angeles"> Los Angeles</label>
+                <label><input type="radio" name="q2" value="Chicago"> Chicago</label>
+            </div>
+
+            <!-- Pergunta 3 -->
+            <div class="question">
+                <h3>3. Qual habilidade especial Miles Morales tem além das normais do Homem-Aranha?</h3>
+                <label><input type="radio" name="q3" value="Visão de calor"> Visão de calor</label>
+                <label><input type="radio" name="q3" value="Camuflagem"> Camuflagem</label>
+                <label><input type="radio" name="q3" value="Raio laser"> Raio laser</label>
+            </div>
+
+            <!-- Pergunta 4 -->
+            <div class="question">
+                <h3>4. Quem é o tio de Miles Morales, que se torna um vilão?</h3>
+                <label><input type="radio" name="q4" value="Rei do Crime"> Rei do Crime</label>
+                <label><input type="radio" name="q4" value="Venom"> Venom</label>
+                <label><input type="radio" name="q4" value="Aaron Davis"> Aaron Davis</label>
+            </div>
+
+            <!-- Pergunta 5 -->
+            <div class="question">
+                <h3>5. Qual é o nome do mentor de Miles Morales?</h3>
+                <label><input type="radio" name="q5" value="Tony Stark"> Tony Stark</label>
+                <label><input type="radio" name="q5" value="Peter Parker"> Peter Parker</label>
+                <label><input type="radio" name="q5" value="Bruce Banner"> Bruce Banner</label>
+            </div>
+
+            <!-- Pergunta 6 -->
+            <div class="question">
+                <h3>6. Em qual universo Miles Morales se torna o Homem-Aranha?</h3>
+                <label><input type="radio" name="q6" value="Universo 616"> Universo 616</label>
+                <label><input type="radio" name="q6" value="Universo Ultimate"> Universo Ultimate</label>
+                <label><input type="radio" name="q6" value="Universo 2099"> Universo 2099</label>
+            </div>
+
+            <!-- Pergunta 7 -->
+            <div class="question">
+                <h3>7. Quem foi o criador de Miles Morales?</h3>
+                <label><input type="radio" name="q7" value="Stan Lee"> Stan Lee</label>
+                <label><input type="radio" name="q7" value="Brian Michael Bendis"> Brian Michael Bendis</label>
+                <label><input type="radio" name="q7" value="Jack Kirby"> Jack Kirby</label>
+            </div>
+
+            <!-- Pergunta 8 -->
+            <div class="question">
+                <h3>8. Qual é o nome do melhor amigo de Miles?</h3>
+                <label><input type="radio" name="q8" value="Harry Osborn"> Harry Osborn</label>
+                <label><input type="radio" name="q8" value="Ganke Lee"> Ganke Lee</label>
+                <label><input type="radio" name="q8" value="Flash Thompson"> Flash Thompson</label>
+            </div>
+
+            <!-- Pergunta 9 -->
+            <div class="question">
+                <h3>9. Qual vilão Miles Morales enfrenta em seu primeiro filme animado?</h3>
+                <label><input type="radio" name="q9" value="Venom"> Venom</label>
+                <label><input type="radio" name="q9" value="Rei do Crime"> Rei do Crime</label>
+                <label><input type="radio" name="q9" value="Mysterio"> Mysterio</label>
+            </div>
+
+            <!-- Pergunta 10 -->
+            <div class="question">
+                <h3>10. Miles Morales tem habilidades de:</h3>
+                <label><input type="radio" name="q10" value="Fogo"> Fogo</label>
+                <label><input type="radio" name="q10" value="Eletricidade"> Eletricidade</label>
+                <label><input type="radio" name="q10" value="Telepatia"> Telepatia</label>
+            </div>
+
+            <button type="button" onclick="checkAnswers()">Verificar Respostas</button>
+        </form>
+        <div id="results"></div>
+    </div>
+</div>
+   <script src="script-spider.js"></script> 
+<footer>
+    <p>&copy; Info IV 2024 - Matheus, Murilo e Victor. Todos os direitos reservados.</p>
+</footer>
+    
+</body>
+</html>
